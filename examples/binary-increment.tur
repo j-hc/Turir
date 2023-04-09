@@ -1,0 +1,9 @@
+#halt H // halt state
+
+// runs
+#run [0 0 0 0 1] I
+#run [1 1 1 1 0] I
+#run [1 1 0 1 1] I
+
+I 0 1 -> H
+I 1 0 -> I
